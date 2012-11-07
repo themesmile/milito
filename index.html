@@ -142,7 +142,7 @@
 	</ul>
 		
 	</div><!-- END RIGHT MENU -->
-	<div data-options="region:'center',title:'Main Title'"><!-- CONTENT -->
+	<div style="padding-bottom:150px;"data-options="region:'center',title:'Main Title'"><!-- CONTENT -->
 	
 		<div class="container-fluid">
 				<div class="row-fluid">
@@ -176,57 +176,19 @@
   						<div class="nest">
   							<div class="title"><img class="titleIcon" alt="" src="assets/img/icons/berlin/calendar.png"><h6>JustGage</h6></div>
   							<div class="body-nest">
-							<h4>TRAFFIC</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel metus a nulla tempus aliquet sit amet ut justo. Nam vulputate ligula mauris, tempus suscipit metus.</p>
-							</br>
-								<div id="placeholder2" style="width:100%;height:40%;"></div>
-								</br>
-					<ul class="chart-info">
-						 <li><span class="green-cart-info"></span> USA</span></li>
-						 <li><span class="blue-cart-info"></span> Japan</li>
-						 <li><span class="magenta-cart-info"></span> German</li>
-					</ul>	
-						
-						<table style="margin-bottom:11px">
-							  <thead>
-								<tr>
-								  <th width="235">
-												<div class="stackControls">
-												<input type="button" class="btn"value="With stacking">
-												<input type="button" class="btn"value="Without stacking">
-												</div>
-								  
-								  
-								  </th>
-								  <th>					
-												<div class="graphControls">
-												<input type="button" class="btn" value="Bars"> 
-												<input type="button" class="btn" value="Lines">
-												<input type="button" class="btn" value="Lines with steps">
-												</div>
-								  
-								  </th>
-								</tr>
-							  </thead>
-         
-						</table>
-							
-							
+			
+							    <div id="placeholder" style="width:99%;height:300px;"></div>
+
+								<p>You can update a chart periodically to get a real-time effect
+								by using a timer to insert the new data in the plot and redraw it.</p>
+
+								<p>Time between updates: <input id="updateInterval" type="text" value="" style="text-align: right; width:5em"> milliseconds</p>
+														
   							</div>
   						</div>					
   					</div>
 				</div>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+
 		</div>
 		
 	</div><!-- CONTENT -->
@@ -242,11 +204,19 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
+	<script language="javascript" type="text/javascript" src="assets/js/jquery.flot.js"></script>
+
+
 	<script src="assets/js/jquery.easyui.min.js"></script>
+		<script language="javascript" type="text/javascript" src="assets/js/jquery.flot.resize.js"></script>
 	<script src="assets/js/loader-splitto.js"></script>
+		<script src="assets/js/custom/chart-float-realtime.js"></script>
 	
-<!-- 	<script src="assets/js/custom/justgauge.js"></script> -->
+    <script src="assets/js/custom/justgauge.js"></script> 
 	<script src="assets/js/custom/accordion.js"></script>
+
+
+
 
 
 	

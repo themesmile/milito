@@ -11,11 +11,13 @@ document.writeln("<script type='text/javascript' src='assets/js/bootstrap-collap
 document.writeln("<script type='text/javascript' src='assets/js/bootstrap-carousel.js'></script>");
 document.writeln("<script type='text/javascript' src='assets/js/bootstrap-typeahead.js'></script>");
 
+document.writeln("<script type='text/javascript' src='assets/js/jquery.flot.js'></script>");
+document.writeln("<script type='text/javascript' src='assets/js/jquery.flot.stack.js'></script>");
+document.writeln("<script type='text/javascript' src='assets/js/jquery.flot.resize.js'></script>");
 
 
 document.writeln("<script type='text/javascript' src='assets/js/scriptbreaker-multiple-accordion-1.js'></script>");
 document.writeln("<script type='text/javascript' src='assets/js/raphael.2.1.0.min.js'></script>");
 document.writeln("<script type='text/javascript' src='assets/js/justgage.1.0.1.min.js'></script>");
-
 
 

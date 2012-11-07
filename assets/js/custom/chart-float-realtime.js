@@ -1,3 +1,4 @@
+
 $(function () {
         // we use an inline data source in the example, usually data would
     // be fetched from a server
@@ -25,7 +26,7 @@ $(function () {
     }
 
     // setup control widget
-    var updateInterval = 30;
+    var updateInterval = 200;
     $("#updateInterval").val(updateInterval).change(function () {
         var v = $(this).val();
         if (v && !isNaN(+v)) {
@@ -44,7 +45,7 @@ $(function () {
         yaxis: { min: 0, max: 100 },
 		xaxis: { min:0, max:100 },	
     };
-    var plot = $.plot($("#placeholder4"), [ getRandomData() ], options);
+    var plot = $.plot($("#placeholder"), [ getRandomData() ], options);
 
     function update() {
         plot.setData([ getRandomData() ]);
@@ -65,3 +66,4 @@ $(function () {
                            + " pixels");
     });
 });
+

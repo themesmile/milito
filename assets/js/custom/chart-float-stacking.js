@@ -1,4 +1,4 @@
-$(function () {
+  window.onload = function () {
     var d1 = [];
     for (var i = 0; i <= 10; i += 1)
         d1.push([i, parseInt(Math.random() * 30)]);
@@ -14,7 +14,7 @@ $(function () {
     var stack = 0, bars = true, lines = false, steps = false;
     
     function plotWithOptions() {
-        $.plot($("#placeholder2"), [ d1, d2, d3 ], {
+        $.plot($("#placeholder"), [ d1, d2, d3 ], {
             series: {
                 stack: stack,
                 lines: { show: lines, fill: true, steps: steps },
